@@ -19,10 +19,12 @@ namespace GameOAnQuan
         }
         public static int diemmay = 0;
         public static int diemnguoi = 0;
-        public static int conchucuamay = 9;
+        public static int conchucuamay = 0;
         public static int luachoncuamay = 0;
-        public static int conchucuanguoi = 9;
+        public static int conchucuanguoi = 0;
         public static int luachoncuanguoi = 0;
+
+        public static int conchucuamay1 = 0; public static int conchucuanguoi1 = 0;
         private void reset()
         {
             btn1.BackColor = Color.Aqua;
@@ -145,8 +147,20 @@ namespace GameOAnQuan
                         {
                             if (Convert.ToInt32(btn5.Text) == 0)
                             {
-                                
-                                        conchucuanguoi = 0;
+                            if (conchucuanguoi1 == 0)
+                            {
+                                if (luachoncuamay == 0)
+                                {
+                                    conchucuanguoi = conchucuanguoi + 9;
+                                   
+                                }
+                                else
+                                {
+                                    conchucuamay = conchucuamay + 9;
+                                }
+                               conchucuanguoi1 = 1;
+                            }
+                                       
                                 x = Convert.ToInt32(btn6.Text);
                                 btn6.Text = "0";
                                 
@@ -300,10 +314,22 @@ namespace GameOAnQuan
                         {
                             if (Convert.ToInt32(btn11.Text) == 0)
                             {
-                                
-                                        conchucuamay = 0;
-                                    
-                                x = Convert.ToInt32(btn12.Text);
+
+                            if (conchucuamay1 == 0)
+                            {
+                                if (luachoncuamay == 0)
+                                {
+                                    conchucuanguoi = conchucuanguoi + 9;
+
+                                }
+                                else
+                                {
+                                    conchucuamay = conchucuamay + 9;
+                                }
+                                conchucuamay1 = 1;
+                            }
+
+                            x = Convert.ToInt32(btn12.Text);
                                 btn12.Text = "0";
                                 if (Convert.ToInt32(btn1.Text) == 0)
                                     return x + choinguocchieu("btn1", Convert.ToInt32(btn1.Text));
@@ -431,8 +457,20 @@ namespace GameOAnQuan
                     else if (vitrichon == 5)
                     {
                         int a = Convert.ToInt32(btn6.Text);
-                    conchucuanguoi = 0;
-                        btn6.Text = "0";
+                    if (conchucuanguoi1 == 0)
+                    {
+                        if (luachoncuamay == 0)
+                        {
+                            conchucuanguoi = conchucuanguoi + 9;
+
+                        }
+                        else
+                        {
+                            conchucuamay = conchucuamay + 9;
+                        }
+                        conchucuanguoi1 = 1;
+                    }
+                    btn6.Text = "0";
                         if (Convert.ToInt32(btn7.Text) == 0)
                             return a + choinguocchieu("btn7", Convert.ToInt32(btn7.Text));
                         else return a;
@@ -478,8 +516,20 @@ namespace GameOAnQuan
                     else if (vitrichon == 11)
                     {
                         int a = Convert.ToInt32(btn12.Text);
-                    conchucuamay = 0;
-                        btn12.Text = "0";
+                    if (conchucuamay1 == 0)
+                    {
+                        if (luachoncuamay == 0)
+                        {
+                            conchucuanguoi = conchucuanguoi + 9;
+
+                        }
+                        else
+                        {
+                            conchucuamay = conchucuamay + 9;
+                        }
+                        conchucuamay1 = 1;
+                    }
+                    btn12.Text = "0";
                         if (Convert.ToInt32(btn1.Text) == 0)
                             return a + choinguocchieu("btn1", Convert.ToInt32(btn1.Text));
                         else return a;
@@ -505,19 +555,9 @@ namespace GameOAnQuan
             if (kiemtra())
             {
                 string text = "";
-                int a = 0;
-                int c = 0;
-                if (conchucuamay == 0)
-                {
-                    a = 9;
-                }
-                if (conchucuanguoi == 0)
-                {
-                    c = 9;
-                }
-                lbldiemmay.Text = (a + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
+                lbldiemmay.Text = (conchucuamay + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
                     + Convert.ToInt32(btn9.Text) + Convert.ToInt32(btn10.Text) + Convert.ToInt32(btn11.Text) + Convert.ToInt32(btn12.Text)).ToString();
-                lbldiemnguoichoi.Text = (c + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
+                lbldiemnguoichoi.Text = (conchucuanguoi + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
                     + Convert.ToInt32(btn3.Text) + Convert.ToInt32(btn4.Text) + Convert.ToInt32(btn5.Text) + Convert.ToInt32(btn6.Text)).ToString();
                 if (Convert.ToInt32(lbldiemmay.Text) > Convert.ToInt32(lbldiemnguoichoi.Text))
                 {
@@ -576,19 +616,9 @@ namespace GameOAnQuan
             if (kiemtra())
             {
                 string text = "";
-                int a = 0;
-                int c = 0;
-                if (conchucuamay == 0)
-                {
-                    a = 9;
-                }
-                if (conchucuanguoi == 0)
-                {
-                    c = 9;
-                }
-                lbldiemmay.Text = (a + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
+                lbldiemmay.Text = (conchucuamay + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
                     + Convert.ToInt32(btn9.Text) + Convert.ToInt32(btn10.Text) + Convert.ToInt32(btn11.Text) + Convert.ToInt32(btn12.Text)).ToString();
-                lbldiemnguoichoi.Text = (c + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
+                lbldiemnguoichoi.Text = (conchucuanguoi + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
                     + Convert.ToInt32(btn3.Text) + Convert.ToInt32(btn4.Text) + Convert.ToInt32(btn5.Text) + Convert.ToInt32(btn6.Text)).ToString();
                 if (Convert.ToInt32(lbldiemmay.Text) > Convert.ToInt32(lbldiemnguoichoi.Text))
                 {
@@ -696,19 +726,9 @@ namespace GameOAnQuan
             if (kiemtra())
             {
                 string text = "";
-                int a = 0;
-                int c = 0;
-                if (conchucuamay == 0)
-                {
-                    a = 9;
-                }
-                if (conchucuanguoi == 0)
-                {
-                    c = 9;
-                }
-                lbldiemmay.Text = (a + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
+                lbldiemmay.Text = (conchucuamay + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
                     + Convert.ToInt32(btn9.Text) + Convert.ToInt32(btn10.Text) + Convert.ToInt32(btn11.Text) + Convert.ToInt32(btn12.Text)).ToString();
-                lbldiemnguoichoi.Text = (c + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
+                lbldiemnguoichoi.Text = (conchucuanguoi + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
                     + Convert.ToInt32(btn3.Text) + Convert.ToInt32(btn4.Text) + Convert.ToInt32(btn5.Text) + Convert.ToInt32(btn6.Text)).ToString();
                 if (Convert.ToInt32(lbldiemmay.Text) > Convert.ToInt32(lbldiemnguoichoi.Text))
                 {
@@ -769,19 +789,9 @@ namespace GameOAnQuan
             if (kiemtra())
             {
                 string text = "";
-                int a = 0;
-                int c = 0;
-                if (conchucuamay == 0)
-                {
-                    a = 9;
-                }
-                if (conchucuanguoi == 0)
-                {
-                    c = 9;
-                }
-                lbldiemmay.Text = (a + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
+                lbldiemmay.Text = (conchucuamay + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
                     + Convert.ToInt32(btn9.Text) + Convert.ToInt32(btn10.Text) + Convert.ToInt32(btn11.Text) + Convert.ToInt32(btn12.Text)).ToString();
-                lbldiemnguoichoi.Text = (c + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
+                lbldiemnguoichoi.Text = (conchucuanguoi + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
                     + Convert.ToInt32(btn3.Text) + Convert.ToInt32(btn4.Text) + Convert.ToInt32(btn5.Text) + Convert.ToInt32(btn6.Text)).ToString();
                 if (Convert.ToInt32(lbldiemmay.Text) > Convert.ToInt32(lbldiemnguoichoi.Text))
                 {
@@ -840,19 +850,9 @@ namespace GameOAnQuan
             if (kiemtra())
             {
                 string text = "";
-                int a = 0;
-                int c = 0;
-                if (conchucuamay == 0)
-                {
-                    a = 9;
-                }
-                if (conchucuanguoi == 0)
-                {
-                    c = 9;
-                }
-                lbldiemmay.Text = (a + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
+                lbldiemmay.Text = (conchucuamay + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
                     + Convert.ToInt32(btn9.Text) + Convert.ToInt32(btn10.Text) + Convert.ToInt32(btn11.Text) + Convert.ToInt32(btn12.Text)).ToString();
-                lbldiemnguoichoi.Text = (c + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
+                lbldiemnguoichoi.Text = (conchucuanguoi + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
                     + Convert.ToInt32(btn3.Text) + Convert.ToInt32(btn4.Text) + Convert.ToInt32(btn5.Text) + Convert.ToInt32(btn6.Text)).ToString();
                 if (Convert.ToInt32(lbldiemmay.Text) > Convert.ToInt32(lbldiemnguoichoi.Text))
                 {
@@ -911,19 +911,9 @@ namespace GameOAnQuan
             if (kiemtra())
             {
                 string text = "";
-                int a = 0;
-                int c = 0;
-                if (conchucuamay == 0)
-                {
-                    a = 9;
-                }
-                if (conchucuanguoi == 0)
-                {
-                    c = 9;
-                }
-                lbldiemmay.Text = (a + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
+                lbldiemmay.Text = (conchucuamay + Convert.ToInt32(lbldiemmay.Text) + Convert.ToInt32(btn7.Text) + Convert.ToInt32(btn8.Text)
                     + Convert.ToInt32(btn9.Text) + Convert.ToInt32(btn10.Text) + Convert.ToInt32(btn11.Text) + Convert.ToInt32(btn12.Text)).ToString();
-                lbldiemnguoichoi.Text = (c + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
+                lbldiemnguoichoi.Text = (conchucuanguoi + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
                     + Convert.ToInt32(btn3.Text) + Convert.ToInt32(btn4.Text) + Convert.ToInt32(btn5.Text) + Convert.ToInt32(btn6.Text)).ToString();
                 if (Convert.ToInt32(lbldiemmay.Text) > Convert.ToInt32(lbldiemnguoichoi.Text))
                 {
@@ -958,7 +948,7 @@ namespace GameOAnQuan
                 }
 
             }
-           else
+            else
             {
 
           
