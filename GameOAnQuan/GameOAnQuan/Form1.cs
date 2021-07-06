@@ -1085,8 +1085,8 @@ namespace GameOAnQuan
                     return point;
                 }
 
-                //return Math.Max(mySuckArseAlgo(point + 1, scores, true, h), mySuckArseAlgo(point, scores, true, h));
-                return mySuckArseAlgo(point + 1, scores, true, h); //false
+                return Math.Max(mySuckArseAlgo(point + 1, scores, true, h), mySuckArseAlgo(point + 1, scores, false, h));
+                //return mySuckArseAlgo(point + 1, scores, true, h); //false
 
             }
                 
@@ -1094,10 +1094,12 @@ namespace GameOAnQuan
             // else motherfker < this algo is fked idk how to implement nodes in c# but atleast it runs
             else
             {
-                scores[point] = AIMoveCache(point);
+                if (scores[point] >= AIMoveCacheP(point))
+                    scores[point] = AIMoveCacheP(point);
+
                 if (scores[point] == 96)
                     return point;
-                return Math.Min(mySuckArseAlgo(point + 1, scores, true, h),
+                return Math.Min(mySuckArseAlgo(point + 1, scores, false, h),
                     mySuckArseAlgo(point + 1, scores, true, h));
             }
         }
@@ -1145,6 +1147,54 @@ namespace GameOAnQuan
                 AIPointCache = (choinguocchieu(btn, s, true));
                 resetToOrigin();
                 return AIPointCache;
+            }
+        }
+
+        private int AIMoveCacheP(int point)
+        {
+            int AIPointCacheP = 0;
+            if (kiemtra())
+                return -1;
+
+            if (isZero(btn7.Text))
+                return -1;
+            else
+            {
+                int s = 0;
+                string btn = null;
+                switch (point)
+                {
+                    case 0:
+                        s = Convert.ToInt32(btn7.Text);
+                        btn = "btn1";
+                        break;
+                    case 1:
+                        s = Convert.ToInt32(btn8.Text);
+                        btn = "btn2";
+                        break;
+                    case 2:
+                        s = Convert.ToInt32(btn9.Text);
+                        btn = "btn3";
+                        break;
+                    case 3:
+                        s = Convert.ToInt32(btn10.Text);
+                        btn = "btn4";
+                        break;
+                    case 4:
+                        s = Convert.ToInt32(btn11.Text);
+                        btn = "btn5";
+                        break;
+                    default:
+                        break;
+                }
+
+                storeOrigin();
+                int tempAIp = AIMoveCache(point);
+                AIPointCacheP = (choinguocchieu(btn, s, true));
+                resetToOrigin();
+                if (AIPointCacheP >= tempAIp)
+                    return -1;
+                return AIPointCacheP;
             }
         }
 
