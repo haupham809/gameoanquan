@@ -1,0 +1,19 @@
+C:\Users\ADMIN\OneDrive\Máy tính\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.exe.config
+C:\Users\ADMIN\OneDrive\Máy tính\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.exe
+C:\Users\ADMIN\OneDrive\Máy tính\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.Form1.resources
+C:\Users\ADMIN\OneDrive\Máy tính\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.Properties.Resources.resources
+C:\Users\ADMIN\OneDrive\Máy tính\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.csproj.GenerateResource.cache
+C:\Users\ADMIN\OneDrive\Máy tính\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.exe
+C:\Users\ADMIN\OneDrive\Máy tính\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.exe.config
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.exe
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.csprojAssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.Form1.resources
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.Properties.Resources.resources
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.csproj.GenerateResource.cache
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.exe
+C:\Users\ADMIN\OneDrive\Máy tính\New folder (6)\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.pdb
