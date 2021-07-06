@@ -1046,93 +1046,6 @@ namespace GameOAnQuan
             btn12.Text = tempSoi[11].ToString();
         }
 
-        private void replaceimage()
-        {
-            Bitmap[] anhoquan =new Bitmap[32];
-            anhoquan[0] = global::GameOAnQuan.Properties.Resources.anh0;
-            anhoquan[1] = global::GameOAnQuan.Properties.Resources.anh1;
-            anhoquan[2] = global::GameOAnQuan.Properties.Resources.anh2;
-            anhoquan[3] = global::GameOAnQuan.Properties.Resources.anh3;
-            anhoquan[4] = global::GameOAnQuan.Properties.Resources.anh4;
-            anhoquan[5] = global::GameOAnQuan.Properties.Resources.anh5;
-            anhoquan[6] = global::GameOAnQuan.Properties.Resources.anh6;
-            anhoquan[7] = global::GameOAnQuan.Properties.Resources.anh7;
-            anhoquan[8] = global::GameOAnQuan.Properties.Resources.anh8;
-            anhoquan[9] = global::GameOAnQuan.Properties.Resources.anh9;
-            anhoquan[10] = global::GameOAnQuan.Properties.Resources.anh10;
-            anhoquan[11] = global::GameOAnQuan.Properties.Resources.anh11;
-            anhoquan[12] = global::GameOAnQuan.Properties.Resources.anh12;
-            anhoquan[13] = global::GameOAnQuan.Properties.Resources.anh13;
-            anhoquan[14] = anhoquan[15] = anhoquan[16] = anhoquan[17] =
-                anhoquan[18] = anhoquan[19] = anhoquan[20] = anhoquan[21] =
-                anhoquan[22] = anhoquan[23] = anhoquan[24] = anhoquan[25] =
-                anhoquan[26] = anhoquan[27] = anhoquan[28] = anhoquan[29] =
-                anhoquan[30] = anhoquan[31] = global::GameOAnQuan.Properties.Resources.anh14;
-
-            Bitmap[] anhoquanchu1 = new Bitmap[30];
-            anhoquanchu1[0] = global::GameOAnQuan.Properties.Resources.anhchu0;
-            anhoquanchu1[1] = global::GameOAnQuan.Properties.Resources.anhchu1_1;
-            anhoquanchu1[2] = global::GameOAnQuan.Properties.Resources.anhchu1_2;
-            anhoquanchu1[3] = global::GameOAnQuan.Properties.Resources.anhchu1_3;
-            anhoquanchu1[4] = global::GameOAnQuan.Properties.Resources.anhchu1_4;
-            anhoquanchu1[5] = global::GameOAnQuan.Properties.Resources.anhchu1_5;
-            anhoquanchu1[6] = global::GameOAnQuan.Properties.Resources.anhchu1_6;
-            anhoquanchu1[7] = global::GameOAnQuan.Properties.Resources.anhchu1_7;
-            anhoquanchu1[8] = global::GameOAnQuan.Properties.Resources.anhchu1_8;
-            anhoquanchu1[9] = global::GameOAnQuan.Properties.Resources.anhchu1_9;
-            anhoquanchu1[10] = global::GameOAnQuan.Properties.Resources.anhchu1_10;
-
-            Bitmap[] anhoquanchu2 = new Bitmap[30];
-            anhoquanchu2[0] = global::GameOAnQuan.Properties.Resources.anhchu0;
-            anhoquanchu2[1] = global::GameOAnQuan.Properties.Resources.anhchu2_1;
-            anhoquanchu2[2] = global::GameOAnQuan.Properties.Resources.anhchu2_2;
-            anhoquanchu2[3] = global::GameOAnQuan.Properties.Resources.anhchu2_3;
-            anhoquanchu2[4] = global::GameOAnQuan.Properties.Resources.anhchu2_4;
-            anhoquanchu2[5] = global::GameOAnQuan.Properties.Resources.anhchu2_5;
-            anhoquanchu2[6] = global::GameOAnQuan.Properties.Resources.anhchu2_6;
-            anhoquanchu2[7] = global::GameOAnQuan.Properties.Resources.anhchu2_7;
-            anhoquanchu2[8] = global::GameOAnQuan.Properties.Resources.anhchu2_8;
-            anhoquanchu2[9] = global::GameOAnQuan.Properties.Resources.anhchu2_9;
-            anhoquanchu2[10] = global::GameOAnQuan.Properties.Resources.anhchuu2_10;
-            this.anh1.Image = anhoquan[Convert.ToInt32(btn1.Text)];
-            this.anh2.Image = anhoquan[Convert.ToInt32(btn2.Text)];
-            this.anh3.Image = anhoquan[Convert.ToInt32(btn3.Text)];
-            this.anh4.Image = anhoquan[Convert.ToInt32(btn4.Text)];
-            this.anh5.Image = anhoquan[Convert.ToInt32(btn5.Text)];
-            if (conchucuanguoi1 == 0) {
-                if(Convert.ToInt32(btn6.Text)<10)this.anh6.Image = anhoquanchu1[Convert.ToInt32(btn6.Text)];
-                 else if (Convert.ToInt32(btn6.Text) > 10) this.anh6.Image = anhoquanchu1[10];
-            }
-            else { this.anh6.Image = anhoquan[Convert.ToInt32(btn6.Text)]; }
-            this.anh7.Image = anhoquan[Convert.ToInt32(btn7.Text)];
-            this.anh8.Image = anhoquan[Convert.ToInt32(btn8.Text)];
-            this.anh9.Image = anhoquan[Convert.ToInt32(btn9.Text)];
-            this.anh10.Image = anhoquan[Convert.ToInt32(btn10.Text)];
-            this.anh11.Image = anhoquan[Convert.ToInt32(btn11.Text)];
-             if (conchucuamay1 == 0)
-            {
-                if (Convert.ToInt32(btn12.Text) <= 10) this.anh12.Image = anhoquanchu2[Convert.ToInt32(btn12.Text)];
-                else if (Convert.ToInt32(btn12.Text) > 10) this.anh12.Image = anhoquanchu2[10];
-            }
-
-            if (Convert.ToInt32(lbldiemmay.Text) <= 30)
-            {
-            anhsoluongsoicuamay.Image = anhoquan[Convert.ToInt32(lbldiemmay.Text)];
-            }
-            else
-            {
-                anhsoluongsoicuamay.Image = anhoquan[30];
-            }
-
-            if (Convert.ToInt32(lbldiemnguoichoi.Text) <= 30)
-            {
-                anhsoluongsoicuanguoi.Image = anhoquan[Convert.ToInt32(lbldiemnguoichoi.Text)];
-            }
-            else
-            {
-                anhsoluongsoicuanguoi.Image = anhoquan[30];
-            }
-        }
      
         private void EndGame()
         {
@@ -1145,8 +1058,12 @@ namespace GameOAnQuan
             btn1.Text = "0"; btn2.Text = "0"; btn3.Text = "0"; btn4.Text = "0";
             btn5.Text = "0"; btn6.Text = "0"; btn7.Text = "0"; btn8.Text = "0";
             btn9.Text = "0"; btn10.Text = "0"; btn11.Text = "0"; btn12.Text = "0";
+            anh1.Enabled = false;
+            anh2.Enabled = false;
+            anh3.Enabled = false;
+            anh4.Enabled = false;
+            anh5.Enabled = false;
             replaceimage();
-            wait(5000);
             if (Convert.ToInt32(lbldiemmay.Text) > Convert.ToInt32(lbldiemnguoichoi.Text))
             {
                 t2.Text = (Convert.ToInt32(t2.Text) + 1).ToString();
@@ -1165,6 +1082,11 @@ namespace GameOAnQuan
             }
             if (MessageBox.Show(text + "\nBạn có muốn chơi lại không !", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
+                anh1.Enabled = true;
+                anh2.Enabled = true;
+                anh3.Enabled = true;
+                anh4.Enabled = true;
+                anh5.Enabled = true;
                 lbldiemmay.Text = "0";
                 lbldiemnguoichoi.Text = "0";
                 btn1.Text = "5"; btn2.Text = "5"; btn3.Text = "5"; btn4.Text = "5";
@@ -1375,17 +1297,131 @@ namespace GameOAnQuan
             }
         }
 
-       
 
-      
 
-       
 
-       
+
+        private void replaceimage()
+        {
+            Bitmap[] anhoquan = new Bitmap[32];
+            anhoquan[0] = global::GameOAnQuan.Properties.Resources.anh0;
+            anhoquan[1] = global::GameOAnQuan.Properties.Resources.anh1;
+            anhoquan[2] = global::GameOAnQuan.Properties.Resources.anh2;
+            anhoquan[3] = global::GameOAnQuan.Properties.Resources.anh3;
+            anhoquan[4] = global::GameOAnQuan.Properties.Resources.anh4;
+            anhoquan[5] = global::GameOAnQuan.Properties.Resources.anh5;
+            anhoquan[6] = global::GameOAnQuan.Properties.Resources.anh6;
+            anhoquan[7] = global::GameOAnQuan.Properties.Resources.anh7;
+            anhoquan[8] = global::GameOAnQuan.Properties.Resources.anh8;
+            anhoquan[9] = global::GameOAnQuan.Properties.Resources.anh9;
+            anhoquan[10] = global::GameOAnQuan.Properties.Resources.anh10;
+            anhoquan[11] = global::GameOAnQuan.Properties.Resources.anh11;
+            anhoquan[12] = global::GameOAnQuan.Properties.Resources.anh12;
+            anhoquan[13] = global::GameOAnQuan.Properties.Resources.anh13;
+            anhoquan[14] = anhoquan[15] = anhoquan[16] = anhoquan[17] =
+                anhoquan[18] = anhoquan[19] = anhoquan[20] = anhoquan[21] =
+                anhoquan[22] = anhoquan[23] = anhoquan[24] = anhoquan[25] =
+                anhoquan[26] = anhoquan[27] = anhoquan[28] = anhoquan[29] =
+                anhoquan[30] = anhoquan[31] = global::GameOAnQuan.Properties.Resources.anh14;
+
+            Bitmap[] anhoquanchu = new Bitmap[30];
+            anhoquanchu[0] = global::GameOAnQuan.Properties.Resources.anhchu0;
+            anhoquanchu[1] = global::GameOAnQuan.Properties.Resources.anhchu1;
+            anhoquanchu[2] = global::GameOAnQuan.Properties.Resources.anhchu2;
+            anhoquanchu[3] = global::GameOAnQuan.Properties.Resources.anhchu3;
+            anhoquanchu[4] = global::GameOAnQuan.Properties.Resources.anhchu4;
+            anhoquanchu[5] = global::GameOAnQuan.Properties.Resources.anhchu5;
+            anhoquanchu[6] = global::GameOAnQuan.Properties.Resources.anhchu6;
+            anhoquanchu[7] = global::GameOAnQuan.Properties.Resources.anhchu7;
+            anhoquanchu[8] = global::GameOAnQuan.Properties.Resources.anhchu8;
+            anhoquanchu[9] = global::GameOAnQuan.Properties.Resources.anhchu9;
+
+
+            Bitmap[] anhoquanchu1 = new Bitmap[30];
+            anhoquanchu1[0] = global::GameOAnQuan.Properties.Resources.anhchu0;
+            anhoquanchu1[1] = global::GameOAnQuan.Properties.Resources.anhchu1_1;
+            anhoquanchu1[2] = global::GameOAnQuan.Properties.Resources.anhchu1_2;
+            anhoquanchu1[3] = global::GameOAnQuan.Properties.Resources.anhchu1_3;
+            anhoquanchu1[4] = global::GameOAnQuan.Properties.Resources.anhchu1_4;
+            anhoquanchu1[5] = global::GameOAnQuan.Properties.Resources.anhchu1_5;
+            anhoquanchu1[6] = global::GameOAnQuan.Properties.Resources.anhchu1_6;
+            anhoquanchu1[7] = global::GameOAnQuan.Properties.Resources.anhchu1_7;
+            anhoquanchu1[8] = global::GameOAnQuan.Properties.Resources.anhchu1_8;
+            anhoquanchu1[9] = global::GameOAnQuan.Properties.Resources.anhchu1_9;
+            anhoquanchu1[10] = global::GameOAnQuan.Properties.Resources.anhchu1_10;
+
+            Bitmap[] anhoquanchu2 = new Bitmap[30];
+            anhoquanchu2[0] = global::GameOAnQuan.Properties.Resources.anhchu0;
+            anhoquanchu2[1] = global::GameOAnQuan.Properties.Resources.anhchu2_1;
+            anhoquanchu2[2] = global::GameOAnQuan.Properties.Resources.anhchu2_2;
+            anhoquanchu2[3] = global::GameOAnQuan.Properties.Resources.anhchu2_3;
+            anhoquanchu2[4] = global::GameOAnQuan.Properties.Resources.anhchu2_4;
+            anhoquanchu2[5] = global::GameOAnQuan.Properties.Resources.anhchu2_5;
+            anhoquanchu2[6] = global::GameOAnQuan.Properties.Resources.anhchu2_6;
+            anhoquanchu2[7] = global::GameOAnQuan.Properties.Resources.anhchu2_7;
+            anhoquanchu2[8] = global::GameOAnQuan.Properties.Resources.anhchu2_8;
+            anhoquanchu2[9] = global::GameOAnQuan.Properties.Resources.anhchu2_9;
+            anhoquanchu2[10] = global::GameOAnQuan.Properties.Resources.anhchuu2_10;
+            this.anh1.Image = anhoquan[Convert.ToInt32(btn1.Text)];
+            this.anh2.Image = anhoquan[Convert.ToInt32(btn2.Text)];
+            this.anh3.Image = anhoquan[Convert.ToInt32(btn3.Text)];
+            this.anh4.Image = anhoquan[Convert.ToInt32(btn4.Text)];
+            this.anh5.Image = anhoquan[Convert.ToInt32(btn5.Text)];
+            if (conchucuanguoi1 == 0)
+            {
+                if (Convert.ToInt32(btn6.Text) < 10) this.anh6.Image = anhoquanchu1[Convert.ToInt32(btn6.Text)];
+                else if (Convert.ToInt32(btn6.Text) > 10) this.anh6.Image = anhoquanchu1[10];
+            }
+            else
+            {
+                if (Convert.ToInt32(btn6.Text) <= 9) this.anh6.Image = anhoquanchu[Convert.ToInt32(btn6.Text)];
+                else if (Convert.ToInt32(btn6.Text) > 9) this.anh6.Image = anhoquanchu[10];
+            }
+            this.anh7.Image = anhoquan[Convert.ToInt32(btn7.Text)];
+            this.anh8.Image = anhoquan[Convert.ToInt32(btn8.Text)];
+            this.anh9.Image = anhoquan[Convert.ToInt32(btn9.Text)];
+            this.anh10.Image = anhoquan[Convert.ToInt32(btn10.Text)];
+            this.anh11.Image = anhoquan[Convert.ToInt32(btn11.Text)];
+            if (conchucuamay1 == 0)
+            {
+                if (Convert.ToInt32(btn12.Text) <= 10) this.anh12.Image = anhoquanchu2[Convert.ToInt32(btn12.Text)];
+                else if (Convert.ToInt32(btn12.Text) > 10) this.anh12.Image = anhoquanchu2[10];
+            }
+            else
+            {
+                if (Convert.ToInt32(btn12.Text) <= 9) this.anh12.Image = anhoquanchu[Convert.ToInt32(btn12.Text)];
+                else if (Convert.ToInt32(btn12.Text) > 9) this.anh12.Image = anhoquanchu[10];
+            }
+
+            if (Convert.ToInt32(lbldiemmay.Text) <= 30)
+            {
+                anhsoluongsoicuamay.Image = anhoquan[Convert.ToInt32(lbldiemmay.Text)];
+            }
+            else
+            {
+                anhsoluongsoicuamay.Image = anhoquan[30];
+            }
+
+            if (Convert.ToInt32(lbldiemnguoichoi.Text) <= 30)
+            {
+                anhsoluongsoicuanguoi.Image = anhoquan[Convert.ToInt32(lbldiemnguoichoi.Text)];
+            }
+            else
+            {
+                anhsoluongsoicuanguoi.Image = anhoquan[30];
+            }
+        }
+
+
+
 
         private void btnchoilai_Click(object sender, EventArgs e)
         {
-           
+            anh1.Enabled = true;
+            anh2.Enabled = true;
+            anh3.Enabled = true;
+            anh4.Enabled = true;
+            anh5.Enabled = true;
             lbldiemmay.Text = "0";
             lbldiemnguoichoi.Text = "0";
             btn1.Text = "5"; btn2.Text = "5"; btn3.Text = "5"; btn4.Text = "5";
@@ -1422,7 +1458,7 @@ namespace GameOAnQuan
                     nguoichoi.Text = "Lược chơi của người";
                     lbldiemnguoichoi.Text = (choinguocchieu("btn1", s, false) + Convert.ToInt32(lbldiemnguoichoi.Text)).ToString();
                     replaceimage();
-                    wait(4000); 
+                    wait(1000); 
                     nguoichoi.Text = "Lược chơi của máy";
                     randommay();
                     replaceimage();
@@ -1451,7 +1487,7 @@ namespace GameOAnQuan
                     nguoichoi.Text = "Lược chơi của người";
                     lbldiemnguoichoi.Text = (choinguocchieu("btn2", s, false) + Convert.ToInt32(lbldiemnguoichoi.Text)).ToString();
                     replaceimage();
-                    wait(4000);
+                    wait(1000);
                     nguoichoi.Text = "Lược chơi của máy";
                     randommay();
                     replaceimage();
@@ -1479,7 +1515,7 @@ namespace GameOAnQuan
                     nguoichoi.Text = "Lược chơi của người";
                     lbldiemnguoichoi.Text = (choinguocchieu("btn3", s, false) + Convert.ToInt32(lbldiemnguoichoi.Text)).ToString();
                     replaceimage();
-                    wait(4000);
+                    wait(1000);
                     nguoichoi.Text = "Lược chơi của máy";
                     randommay();
                     replaceimage();
@@ -1508,7 +1544,7 @@ namespace GameOAnQuan
                     nguoichoi.Text = "Lược chơi của người";
                     lbldiemnguoichoi.Text = (choinguocchieu("btn4", s, false) + Convert.ToInt32(lbldiemnguoichoi.Text)).ToString();
                     replaceimage();
-                    wait(4000);
+                    wait(1000);
                     nguoichoi.Text = "Lược chơi của máy";
                     randommay();
                     replaceimage();
@@ -1537,7 +1573,7 @@ namespace GameOAnQuan
                     nguoichoi.Text = "Lược chơi của người";
                     lbldiemnguoichoi.Text = (choinguocchieu("btn5", s, false) + Convert.ToInt32(lbldiemnguoichoi.Text)).ToString();
                     replaceimage();
-                    wait(4000);
+                    wait(1000);
                     nguoichoi.Text = "Lược chơi của máy";
                     randommay();
                     replaceimage();
@@ -1552,6 +1588,9 @@ namespace GameOAnQuan
             Application.Exit();
         }
 
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

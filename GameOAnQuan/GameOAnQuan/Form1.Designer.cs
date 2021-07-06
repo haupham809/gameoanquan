@@ -63,11 +63,11 @@ namespace GameOAnQuan
             this.btn6 = new System.Windows.Forms.Button();
             this.btn12 = new System.Windows.Forms.Button();
             this.nguoichoi = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.anhnguoimay = new System.Windows.Forms.PictureBox();
             this.anhnguoichoi = new System.Windows.Forms.PictureBox();
             this.anhsoluongsoicuamay = new System.Windows.Forms.PictureBox();
             this.anhsoluongsoicuanguoi = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.anh12 = new GameOAnQuan.Circularpictureleft();
             this.circularpictureleft1 = new GameOAnQuan.Circularpictureleft();
             this.anh6 = new GameOAnQuan.Circularpictureright();
@@ -79,6 +79,8 @@ namespace GameOAnQuan
             this.elipseControl5 = new GameOAnQuan.ElipseControl();
             this.elipseControl6 = new GameOAnQuan.ElipseControl();
             this.elipseControl7 = new GameOAnQuan.ElipseControl();
+            this.button2 = new System.Windows.Forms.Button();
+            this.elipseControl8 = new GameOAnQuan.ElipseControl();
             label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -545,6 +547,17 @@ namespace GameOAnQuan
             this.nguoichoi.Size = new System.Drawing.Size(0, 69);
             this.nguoichoi.TabIndex = 12;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(1624, 41);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(63, 65);
+            this.button1.TabIndex = 56;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // anhnguoimay
             // 
             this.anhnguoimay.Image = global::GameOAnQuan.Properties.Resources.anhmay;
@@ -588,17 +601,6 @@ namespace GameOAnQuan
             this.anhsoluongsoicuanguoi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.anhsoluongsoicuanguoi.TabIndex = 15;
             this.anhsoluongsoicuanguoi.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1511, 28);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(63, 65);
-            this.button1.TabIndex = 56;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // anh12
             // 
@@ -677,6 +679,22 @@ namespace GameOAnQuan
             this.elipseControl7.CornerRadius = 90;
             this.elipseControl7.TargetControl = this.button1;
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(1516, 41);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(60, 65);
+            this.button2.TabIndex = 57;
+            this.button2.Text = "-";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // elipseControl8
+            // 
+            this.elipseControl8.CornerRadius = 90;
+            this.elipseControl8.TargetControl = this.button2;
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -684,6 +702,7 @@ namespace GameOAnQuan
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(1814, 1055);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.nguoichoi);
             this.Controls.Add(this.anh12);
@@ -792,6 +811,8 @@ namespace GameOAnQuan
         private System.Windows.Forms.Label nguoichoi;
         private System.Windows.Forms.Button button1;
         private ElipseControl elipseControl7;
+        private System.Windows.Forms.Button button2;
+        private ElipseControl elipseControl8;
     }
 }
 

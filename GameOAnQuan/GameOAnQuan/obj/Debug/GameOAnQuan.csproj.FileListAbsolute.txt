@@ -27,3 +27,13 @@ C:\Users\ADMIN\Desktop\gameoanquan\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan
 C:\Users\ADMIN\Desktop\gameoanquan\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.exe
 C:\Users\ADMIN\Desktop\gameoanquan\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.pdb
 C:\Users\ADMIN\Desktop\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.exe.config
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.exe
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\bin\Debug\GameOAnQuan.pdb
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.Game.resources
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.exe
+C:\Users\ADMIN\Desktop\New folder (2)\gameoanquan\New folder\gameoanquan\gameoanquan\GameOAnQuan\GameOAnQuan\obj\Debug\GameOAnQuan.pdb

@@ -368,5 +368,32 @@
   <ItemGroup>
     <None Include="Resources\anhchuu2_10.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu92.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

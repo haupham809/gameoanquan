@@ -233,6 +233,16 @@ namespace GameOAnQuan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap anhchu1 {
+            get {
+                object obj = ResourceManager.GetObject("anhchu1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap anhchu1_1 {
             get {
                 object obj = ResourceManager.GetObject("anhchu1_1", resourceCulture);
@@ -333,6 +343,16 @@ namespace GameOAnQuan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap anhchu2 {
+            get {
+                object obj = ResourceManager.GetObject("anhchu2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap anhchu2_1 {
             get {
                 object obj = ResourceManager.GetObject("anhchu2_1", resourceCulture);
@@ -416,6 +436,76 @@ namespace GameOAnQuan.Properties {
         internal static System.Drawing.Bitmap anhchu2_9 {
             get {
                 object obj = ResourceManager.GetObject("anhchu2_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap anhchu3 {
+            get {
+                object obj = ResourceManager.GetObject("anhchu3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap anhchu4 {
+            get {
+                object obj = ResourceManager.GetObject("anhchu4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap anhchu5 {
+            get {
+                object obj = ResourceManager.GetObject("anhchu5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap anhchu6 {
+            get {
+                object obj = ResourceManager.GetObject("anhchu6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap anhchu7 {
+            get {
+                object obj = ResourceManager.GetObject("anhchu7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap anhchu8 {
+            get {
+                object obj = ResourceManager.GetObject("anhchu8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap anhchu9 {
+            get {
+                object obj = ResourceManager.GetObject("anhchu9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
