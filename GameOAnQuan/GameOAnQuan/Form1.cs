@@ -1161,40 +1161,58 @@ namespace GameOAnQuan
             else
             {
                 int s = 0;
-                string btn = null;
-                switch (point)
-                {
-                    case 0:
-                        s = Convert.ToInt32(btn7.Text);
-                        btn = "btn1";
-                        break;
-                    case 1:
-                        s = Convert.ToInt32(btn8.Text);
-                        btn = "btn2";
-                        break;
-                    case 2:
-                        s = Convert.ToInt32(btn9.Text);
-                        btn = "btn3";
-                        break;
-                    case 3:
-                        s = Convert.ToInt32(btn10.Text);
-                        btn = "btn4";
-                        break;
-                    case 4:
-                        s = Convert.ToInt32(btn11.Text);
-                        btn = "btn5";
-                        break;
-                    default:
-                        break;
-                }
+                string btn = null; 
 
                 storeOrigin();
-                int tempAIp = AIMoveCache(point);
-                AIPointCacheP = (choinguocchieu(btn, s, true));
-                resetToOrigin();
-                if (AIPointCacheP >= tempAIp)
-                    return -1;
-                return AIPointCacheP;
+                
+                for (int i = 0; i<=4; i++)
+                {
+                    switch (i)
+                    {
+                        case 0:
+                            s = Convert.ToInt32(btn7.Text);
+                            btn = "btn1";
+                            break;
+                        case 1:
+                            s = Convert.ToInt32(btn8.Text);
+                            btn = "btn2";
+                            break;
+                        case 2:
+                            s = Convert.ToInt32(btn9.Text);
+                            btn = "btn3";
+                            break;
+                        case 3:
+                            s = Convert.ToInt32(btn10.Text);
+                            btn = "btn4";
+                            break;
+                        case 4:
+                            s = Convert.ToInt32(btn11.Text);
+                            btn = "btn5";
+                            break;
+                        default:
+                            break;
+                    }
+
+                    luachoncuanguoi = 0;
+                    luachoncuamay = 1;
+
+                    int tempAIp = AIMoveCache(point);
+
+                    luachoncuanguoi = 1;
+                    luachoncuamay = 0;
+
+                    AIPointCacheP = (choinguocchieu(btn, s, true));
+                    resetToOrigin();
+
+                    luachoncuanguoi = 0;
+                    luachoncuamay = 1;
+
+                    if (AIPointCacheP <= tempAIp)
+                        return i;
+                }
+                              
+                
+                return 0;
             }
         }
 
