@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3EA4126C-7EAC-40B8-B6E3-7378C594A815}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GameOAnQuan</RootNamespace>
+    <AssemblyName>GameOAnQuan</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Circularbutton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh1vien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhnguoi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhmay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhnen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acnhchu7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchuu10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhmay1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhnguoi1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhnguoi2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acnhchu71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchuu101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhmay2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu1_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchu2_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhchuu2_10.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
