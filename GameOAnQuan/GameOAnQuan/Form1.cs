@@ -90,7 +90,12 @@ namespace GameOAnQuan
 
         private int choinguocchieu(string btn, int soluongsoi, bool isCalculating)
         {
-           
+            if(!isCalculating)
+            {
+                wait(500);
+                replaceimage();
+            }
+
             if (luachoncuanguoi == 1 && !isCalculating)
             {
                 if (isZero(btn1.Text) && isZero(btn2.Text) && isZero(btn3.Text)
@@ -112,9 +117,6 @@ namespace GameOAnQuan
            int x = 0;
            if (!isCalculating)
             {
-
-                wait(800);
-                replaceimage();
                 if (soluongsoi > 0)
                 {
                     reset();
@@ -587,7 +589,6 @@ namespace GameOAnQuan
             }
            else
             {
-              
                 /*int[] tempOfTheSoi = null;
                 if (!thelordofthetempsoi)
                 {
@@ -1138,8 +1139,8 @@ namespace GameOAnQuan
                     return point;
                 }
 
-                //return Math.Max(mySuckArseAlgo(point + 1, scores, true, h), mySuckArseAlgo(point, scores, true, h));
-                return mySuckArseAlgo(point + 1, scores, true, h); //false
+                return Math.Max(mySuckArseAlgo(point + 1, scores, true, h), mySuckArseAlgo(point + 1, scores, false, h));
+                //return mySuckArseAlgo(point + 1, scores, true, h); //false
 
             }
                 
@@ -1147,14 +1148,77 @@ namespace GameOAnQuan
             // else motherfker < this algo is fked idk how to implement nodes in c# but atleast it runs
             else
             {
-                scores[point] = AIMoveCache(point);
+                //scores[point] = AIMoveCache(point);
+                if (scores[point] >= AIMoveCacheP(point))
+                    scores[point] = AIMoveCacheP(point);
                 if (scores[point] == 96)
                     return point;
-                return Math.Min(mySuckArseAlgo(point + 1, scores, true, h),
-                    mySuckArseAlgo(point + 1, scores, true, h));
+                //return Math.Min(mySuckArseAlgo(point + 1, scores, true, h), mySuckArseAlgo(point + 1, scores, true, h));
+                return Math.Min(mySuckArseAlgo(point + 1, scores, false, h), mySuckArseAlgo(point + 1, scores, true, h));
             }
         }
 
+
+        private int AIMoveCacheP(int point)
+        {
+            int AIPointCacheP = 0;
+            if (kiemtra())
+                return -1;
+
+            if (isZero(btn7.Text))
+                return -1;
+            else
+            {
+                int s = 0;
+                string btn = null;
+                storeOrigin(); for (int i = 0; i <= 4; i++)
+                {
+                    switch (i)
+                    {
+                        case 0:
+                            s = Convert.ToInt32(btn7.Text);
+                            btn = "btn1";
+                            break;
+                        case 1:
+                            s = Convert.ToInt32(btn8.Text);
+                            btn = "btn2";
+                            break;
+                        case 2:
+                            s = Convert.ToInt32(btn9.Text);
+                            btn = "btn3";
+                            break;
+                        case 3:
+                            s = Convert.ToInt32(btn10.Text);
+                            btn = "btn4";
+                            break;
+                        case 4:
+                            s = Convert.ToInt32(btn11.Text);
+                            btn = "btn5";
+                            break;
+                        default:
+                            break;
+                    }
+
+                    luachoncuanguoi = 0;
+                    luachoncuamay = 1;
+
+                    int tempAIp = AIMoveCache(point);
+
+                    luachoncuanguoi = 1;
+                    luachoncuamay = 0;
+
+                    AIPointCacheP = (choinguocchieu(btn, s, true));
+                    resetToOrigin();
+
+                    luachoncuanguoi = 0;
+                    luachoncuamay = 1;
+
+                    if (AIPointCacheP <= tempAIp)
+                        return i;
+                }
+                return 0;
+            }
+        }
 
         private int AIMoveCache(int point)
         {
@@ -1436,9 +1500,9 @@ namespace GameOAnQuan
             luachoncuamay = 0;
             conchucuanguoi = 0;
             luachoncuanguoi = 0;
-            conchucuamay1 = 0; 
+            conchucuamay1 = 0;
             conchucuanguoi1 = 0;
-        replaceimage();
+            replaceimage();
         }
 
         private void btnreset_Click(object sender, EventArgs e)
