@@ -1583,12 +1583,17 @@ namespace GameOAnQuan
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+     
+
+       
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
+
             Application.Exit();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }

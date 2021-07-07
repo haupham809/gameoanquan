@@ -130,11 +130,8 @@
   <data name="anh4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anh42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu2_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu2_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="anh6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anh62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-close-window-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-close-window-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anh10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anh102.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,11 +142,14 @@
   <data name="anh5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anh52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="anh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anh16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anh8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anh82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anh11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anh112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anh12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anh122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,26 +157,38 @@
   <data name="anhchu1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu2_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu2_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anhchu1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anh11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anh112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anhchu9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anhchu2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu2_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="anhchu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anhchu8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="anhchu1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anh7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anh72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anhchu6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anhchu2_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu2_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anhchu01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anhchu1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anhchu3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anhchu1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,14 +199,17 @@
   <data name="anh0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anh02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anhchu2_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu2_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anhchu1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anh6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anh62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anhchu7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anh22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,8 +217,11 @@
   <data name="anhchu1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anh8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anh82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anh7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anh72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anhchu5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anh14" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anh142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,40 +244,28 @@
   <data name="anhchu1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anh13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anh132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="anhchu2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu2_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anhchu0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anh3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anh32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="anhchu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="anhchu3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anh13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anh132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anhchu4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anhchu4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anhchu2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu2_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anhchu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anhchu2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhchu2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhchu8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="anhchu9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anhchu92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-minimize-window-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-minimize-window-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
