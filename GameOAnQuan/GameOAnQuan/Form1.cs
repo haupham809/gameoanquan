@@ -90,8 +90,7 @@ namespace GameOAnQuan
 
         private int choinguocchieu(string btn, int soluongsoi, bool isCalculating)
         {
-            wait(500);
-            replaceimage();
+           
             if (luachoncuanguoi == 1 && !isCalculating)
             {
                 if (isZero(btn1.Text) && isZero(btn2.Text) && isZero(btn3.Text)
@@ -113,6 +112,9 @@ namespace GameOAnQuan
            int x = 0;
            if (!isCalculating)
             {
+
+                wait(800);
+                replaceimage();
                 if (soluongsoi > 0)
                 {
                     reset();
@@ -585,6 +587,7 @@ namespace GameOAnQuan
             }
            else
             {
+              
                 /*int[] tempOfTheSoi = null;
                 if (!thelordofthetempsoi)
                 {
@@ -1427,7 +1430,15 @@ namespace GameOAnQuan
             btn1.Text = "5"; btn2.Text = "5"; btn3.Text = "5"; btn4.Text = "5";
             btn5.Text = "5"; btn6.Text = "1"; btn7.Text = "5"; btn8.Text = "5";
             btn9.Text = "5"; btn10.Text = "5"; btn11.Text = "5"; btn12.Text = "1";
-            replaceimage();
+            diemmay = 0;
+            diemnguoi = 0;
+            conchucuamay = 0;
+            luachoncuamay = 0;
+            conchucuanguoi = 0;
+            luachoncuanguoi = 0;
+            conchucuamay1 = 0; 
+            conchucuanguoi1 = 0;
+        replaceimage();
         }
 
         private void btnreset_Click(object sender, EventArgs e)
