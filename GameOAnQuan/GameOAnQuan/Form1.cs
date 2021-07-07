@@ -48,15 +48,15 @@ namespace GameOAnQuan
         {
             if (Convert.ToInt32(text) == 0)
                 return true;
-            else 
+            else
                 return false;
         }
 
         private bool kiemtra()
         {
-            if (isZero(btn1.Text) && isZero(btn2.Text) && isZero(btn3.Text) && isZero(btn4.Text) && isZero(btn5.Text) && isZero(btn7.Text) && isZero(btn8.Text) && isZero(btn9.Text) && isZero(btn10.Text) && isZero(btn11.Text)) 
+            if (isZero(btn1.Text) && isZero(btn2.Text) && isZero(btn3.Text) && isZero(btn4.Text) && isZero(btn5.Text) && isZero(btn7.Text) && isZero(btn8.Text) && isZero(btn9.Text) && isZero(btn10.Text) && isZero(btn11.Text))
                 return true;
-            if (isZero(btn1.Text) && isZero(btn2.Text) && isZero(btn3.Text)  && isZero(btn4.Text) && isZero(btn5.Text))
+            if (isZero(btn1.Text) && isZero(btn2.Text) && isZero(btn3.Text) && isZero(btn4.Text) && isZero(btn5.Text))
                 return true;
             else if (isZero(btn7.Text) && isZero(btn8.Text) && isZero(btn9.Text) && isZero(btn10.Text) && isZero(btn11.Text))
                 return true;
@@ -90,7 +90,7 @@ namespace GameOAnQuan
 
         private int choinguocchieu(string btn, int soluongsoi, bool isCalculating)
         {
-            if(!isCalculating)
+            if (!isCalculating)
             {
                 wait(500);
                 replaceimage();
@@ -102,7 +102,7 @@ namespace GameOAnQuan
                 && isZero(btn4.Text) && isZero(btn5.Text) && isZero(btn7.Text) && isZero(btn8.Text) && isZero(btn9.Text)
                 && isZero(btn10.Text) && isZero(btn11.Text))
                     return 0;
-              
+
 
             }
             else if (luachoncuamay == 1 && !isCalculating)
@@ -110,12 +110,12 @@ namespace GameOAnQuan
                 if (isZero(btn1.Text) && isZero(btn2.Text) && isZero(btn3.Text)
                && isZero(btn4.Text) && isZero(btn5.Text) && isZero(btn7.Text) && isZero(btn8.Text) && isZero(btn9.Text)
                && isZero(btn10.Text) && isZero(btn11.Text))
-                    return 0; 
+                    return 0;
             }
 
 
-           int x = 0;
-           if (!isCalculating)
+            int x = 0;
+            if (!isCalculating)
             {
                 if (soluongsoi > 0)
                 {
@@ -587,7 +587,7 @@ namespace GameOAnQuan
                     }
                 }
             }
-           else
+            else
             {
                 /*int[] tempOfTheSoi = null;
                 if (!thelordofthetempsoi)
@@ -607,7 +607,7 @@ namespace GameOAnQuan
                         btn2.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn2.Text = (Convert.ToInt32(btn2.Text) + 1).ToString();
-                       
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn3.Text))
@@ -636,7 +636,7 @@ namespace GameOAnQuan
                         btn3.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn3.Text = (Convert.ToInt32(btn3.Text) + 1).ToString();
-                       
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn4.Text))
@@ -666,7 +666,7 @@ namespace GameOAnQuan
                         btn4.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn4.Text = (Convert.ToInt32(btn4.Text) + 1).ToString();
-                     
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn5.Text))
@@ -693,7 +693,7 @@ namespace GameOAnQuan
                         btn5.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn5.Text = (Convert.ToInt32(btn5.Text) + 1).ToString();
-                      
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn6.Text))
@@ -717,7 +717,7 @@ namespace GameOAnQuan
                         btn6.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn6.Text = (Convert.ToInt32(btn6.Text) + 1).ToString();
-                      
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn7.Text))
@@ -744,7 +744,7 @@ namespace GameOAnQuan
                         btn7.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn7.Text = (Convert.ToInt32(btn7.Text) + 1).ToString();
-                      
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn8.Text))
@@ -769,7 +769,7 @@ namespace GameOAnQuan
                     {
                         soluongsoi = soluongsoi - 1;
                         btn8.Text = (Convert.ToInt32(btn8.Text) + 1).ToString();
-                     
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn9.Text))
@@ -795,7 +795,7 @@ namespace GameOAnQuan
                         btn9.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn9.Text = (Convert.ToInt32(btn9.Text) + 1).ToString();
-                       
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn10.Text))
@@ -825,7 +825,7 @@ namespace GameOAnQuan
                         btn10.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn10.Text = (Convert.ToInt32(btn10.Text) + 1).ToString();
-                      
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn11.Text))
@@ -851,7 +851,7 @@ namespace GameOAnQuan
                         btn11.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn11.Text = (Convert.ToInt32(btn11.Text) + 1).ToString();
-                     
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn12.Text))
@@ -874,7 +874,7 @@ namespace GameOAnQuan
                         btn12.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn12.Text = (Convert.ToInt32(btn12.Text) + 1).ToString();
-                    
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn1.Text))
@@ -900,7 +900,7 @@ namespace GameOAnQuan
                         btn1.BackColor = Color.Red;
                         soluongsoi = soluongsoi - 1;
                         btn1.Text = (Convert.ToInt32(btn1.Text) + 1).ToString();
-                    
+
                         if (soluongsoi == 0)
                         {
                             if (isZero(btn2.Text))
@@ -1021,8 +1021,8 @@ namespace GameOAnQuan
                         else return a;
                     }
                 }
-           
-            
+
+
             }
 
 
@@ -1031,7 +1031,7 @@ namespace GameOAnQuan
 
             thelordofthetempsoi = false;*/
             return x;
-            }
+        }
 
         bool thelordofthetempsoi = false;
         private void resetToOrigin()
@@ -1050,7 +1050,7 @@ namespace GameOAnQuan
             btn12.Text = tempSoi[11].ToString();
         }
 
-     
+
         private void EndGame()
         {
             string text = "";
@@ -1058,7 +1058,7 @@ namespace GameOAnQuan
                 + Convert.ToInt32(btn9.Text) + Convert.ToInt32(btn10.Text) + Convert.ToInt32(btn11.Text) + Convert.ToInt32(btn12.Text)).ToString();
             lbldiemnguoichoi.Text = (conchucuanguoi + Convert.ToInt32(lbldiemnguoichoi.Text) + Convert.ToInt32(btn1.Text) + Convert.ToInt32(btn2.Text)
                 + Convert.ToInt32(btn3.Text) + Convert.ToInt32(btn4.Text) + Convert.ToInt32(btn5.Text) + Convert.ToInt32(btn6.Text)).ToString();
-          
+
             btn1.Text = "0"; btn2.Text = "0"; btn3.Text = "0"; btn4.Text = "0";
             btn5.Text = "0"; btn6.Text = "0"; btn7.Text = "0"; btn8.Text = "0";
             btn9.Text = "0"; btn10.Text = "0"; btn11.Text = "0"; btn12.Text = "0";
@@ -1097,17 +1097,19 @@ namespace GameOAnQuan
                 btn5.Text = "5"; btn6.Text = "1"; btn7.Text = "5"; btn8.Text = "5";
                 btn9.Text = "5"; btn10.Text = "5"; btn11.Text = "5"; btn12.Text = "1";
             }
-           
+
         }
 
         /*suck arse AI Algorithm by Tran Duy*/
+        static int MAX = 100;
+        static int MIN = -100;
         bool isNotified = false;
-        private int mySuckArseAlgo(int point, int []scores, bool isMax, int h)
+        private int mySuckArseAlgo(int depth, int[] scores, bool isMax, int h, int alpha, int beta)
         {
             //  point is where AI can move, whe got 5 movable points, and boii of course we start at 0
             //MessageBox.Show(point.ToString());         
 
-            if (point == h)
+            if (depth == h)
             {
                 int res;
                 try
@@ -1119,15 +1121,18 @@ namespace GameOAnQuan
                 {
                     isNotified = true;
                     //index of number other than 0s
-                   /* MessageBox.Show("AI has selected the index of " + res + " other than 0s.", "AI result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            */    }
+                    /* MessageBox.Show("AI has selected the index of " + res + " other than 0s.", "AI result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+             */
+                }
+                //return Array.IndexOf(scores, scores.Max());
                 return Array.IndexOf(scores, scores.Max());
             }
 
             // get the max move that gives out the best score
             if (isMax)
             {
-                scores[point] = AIMoveCache(point);
+                int best = MIN;
+                /*scores[point] = AIMoveCache(point);
                 if (scores[point] == 96)
                 {
                     int res = point + 1;
@@ -1139,22 +1144,62 @@ namespace GameOAnQuan
                     return point;
                 }
 
-                return Math.Max(mySuckArseAlgo(point + 1, scores, true, h), mySuckArseAlgo(point + 1, scores, false, h));
+                return Math.Max(mySuckArseAlgo(point + 1, depth + 1, scores, true, h, alpha, beta), mySuckArseAlgo(point + 1, depth, scores, false, h, alpha, beta))*/
+                ;
                 //return mySuckArseAlgo(point + 1, scores, true, h); //false
 
+
+                for (int i = depth; i <= h; i++)
+                {
+                    int val = AIMoveCache(i);
+                    best = Math.Max(best, val);
+                    alpha = Math.Max(alpha, best);
+
+                    // alpha beta pruning
+                    if (beta <= alpha)
+                    {
+                        scores[i] = val;
+                        break;
+                    }
+                }
+                return mySuckArseAlgo(depth + 1, scores, false, h, alpha, beta); ;
             }
-                
+
 
             // else motherfker < this algo is fked idk how to implement nodes in c# but atleast it runs
             else
             {
+                int best = MAX;
                 //scores[point] = AIMoveCache(point);
-                if (scores[point] >= AIMoveCacheP(point))
+                /* if (scores[point] >= AIMoveCacheP(point))
                     scores[point] = AIMoveCacheP(point);
                 if (scores[point] == 96)
-                    return point;
+                    return point;*/
                 //return Math.Min(mySuckArseAlgo(point + 1, scores, true, h), mySuckArseAlgo(point + 1, scores, true, h));
-                return Math.Min(mySuckArseAlgo(point + 1, scores, false, h), mySuckArseAlgo(point + 1, scores, true, h));
+                /*return Math.Min(mySuckArseAlgo(point + 1, depth, scores, false, h, alpha, beta), mySuckArseAlgo(point + 1, depth + 1, scores, true, h, alpha, beta));*/
+
+                for (int i = depth; i <= h; i++)
+                {
+                    int val = AIMoveCacheP(i);
+                    best = Math.Max(best, val);
+                    alpha = Math.Max(alpha, best);
+
+                    // alpha beta pruning
+
+                    if (scores[i] == 96)
+                        return i;
+                    if (beta <= alpha)
+                    {
+                        scores[i] = val;
+                        break;
+                    }
+                    else if (scores[i] >= AIMoveCacheP(i))
+                    {
+                        scores[i] = AIMoveCacheP(i);
+                        break;
+                    }
+                }
+                return mySuckArseAlgo(depth + 1, scores, true, h, alpha, beta); ;
             }
         }
 
@@ -1163,10 +1208,10 @@ namespace GameOAnQuan
         {
             int AIPointCacheP = 0;
             if (kiemtra())
-                return -1;
+                return 0;
 
             if (isZero(btn7.Text))
-                return -1;
+                return 0;
             else
             {
                 int s = 0;
@@ -1227,7 +1272,7 @@ namespace GameOAnQuan
                 return 96;
 
             if (isZero(btn7.Text))
-                return -1;
+                return 0;
             else
             {
                 int s = 0;
@@ -1287,7 +1332,7 @@ namespace GameOAnQuan
 
 
 
-     
+
 
         private void randommay()
         {
@@ -1296,71 +1341,74 @@ namespace GameOAnQuan
             else
             {
 
-           
-            luachoncuanguoi = 0;
-            luachoncuamay = 1;
-            Random r = new Random();
-            List<string> a = new List<string>();
-            List<string> b = new List<string>();
-            if (Convert.ToInt32(btn7.Text) > 0) {
-                a.Add(btn7.Text);
-                b.Add("btn7");
-                    }
-            if (Convert.ToInt32(btn8.Text) > 0)
-            {
-                a.Add(btn8.Text);
-                b.Add("btn8");
-            }
-            if (Convert.ToInt32(btn9.Text) > 0)
-            {
-                a.Add(btn9.Text);
-                b.Add("btn9");
-            }
-            if (Convert.ToInt32(btn10.Text) > 0)
-            {
-                a.Add(btn10.Text);
-                b.Add("btn10");
-            }
-            if (Convert.ToInt32(btn11.Text) > 0)
-            {
-                a.Add(btn11.Text);
-                b.Add("btn11");
-            }
+
+                luachoncuanguoi = 0;
+                luachoncuamay = 1;
+                Random r = new Random();
+                List<string> a = new List<string>();
+                List<string> b = new List<string>();
+                if (Convert.ToInt32(btn7.Text) > 0)
+                {
+                    a.Add(btn7.Text);
+                    b.Add("btn7");
+                }
+                if (Convert.ToInt32(btn8.Text) > 0)
+                {
+                    a.Add(btn8.Text);
+                    b.Add("btn8");
+                }
+                if (Convert.ToInt32(btn9.Text) > 0)
+                {
+                    a.Add(btn9.Text);
+                    b.Add("btn9");
+                }
+                if (Convert.ToInt32(btn10.Text) > 0)
+                {
+                    a.Add(btn10.Text);
+                    b.Add("btn10");
+                }
+                if (Convert.ToInt32(btn11.Text) > 0)
+                {
+                    a.Add(btn11.Text);
+                    b.Add("btn11");
+                }
                 //int i = r.Next(0, a.Count-1);
                 int[] scoreste = new int[a.Count];
-                int i = mySuckArseAlgo(0, scoreste, true, a.Count-1);
+                int i = mySuckArseAlgo(0, scoreste, true, a.Count - 1, MIN, MAX);
                 isNotified = false;
+                int btnnum = Convert.ToInt32(b[i].Replace("btn", String.Empty)) - 6;
+                MessageBox.Show("Máy chọn ô thứ " + btnnum + ".");
 
-            if (b[i] == "btn7")
-            {
-                int s = Convert.ToInt32(btn7.Text);
-                btn7.Text = "0";
-                lbldiemmay.Text = (choinguocchieu("btn7", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
-            }
-            else if (b[i] == "btn8")
-            {
-                int s = Convert.ToInt32(btn8.Text);
-                btn8.Text = "0";
-                lbldiemmay.Text = (choinguocchieu("btn8", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
-            }
-            else if (b[i] == "btn9")
-            {
-                int s = Convert.ToInt32(btn9.Text);
-                btn9.Text = "0";
-                lbldiemmay.Text = (choinguocchieu("btn9", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
-            }
-            else if (b[i] == "btn10")
-            {
-                int s = Convert.ToInt32(btn10.Text);
-                btn10.Text = "0";
-                lbldiemmay.Text = (choinguocchieu("btn10", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
-            }
-            else if (b[i] == "btn11")
-            {
-                int s = Convert.ToInt32(btn11.Text);
-                btn11.Text = "0";
-                lbldiemmay.Text = (choinguocchieu("btn11", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
-            }
+                if (b[i] == "btn7")
+                {
+                    int s = Convert.ToInt32(btn7.Text);
+                    btn7.Text = "0";
+                    lbldiemmay.Text = (choinguocchieu("btn7", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
+                }
+                else if (b[i] == "btn8")
+                {
+                    int s = Convert.ToInt32(btn8.Text);
+                    btn8.Text = "0";
+                    lbldiemmay.Text = (choinguocchieu("btn8", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
+                }
+                else if (b[i] == "btn9")
+                {
+                    int s = Convert.ToInt32(btn9.Text);
+                    btn9.Text = "0";
+                    lbldiemmay.Text = (choinguocchieu("btn9", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
+                }
+                else if (b[i] == "btn10")
+                {
+                    int s = Convert.ToInt32(btn10.Text);
+                    btn10.Text = "0";
+                    lbldiemmay.Text = (choinguocchieu("btn10", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
+                }
+                else if (b[i] == "btn11")
+                {
+                    int s = Convert.ToInt32(btn11.Text);
+                    btn11.Text = "0";
+                    lbldiemmay.Text = (choinguocchieu("btn11", s, false) + Convert.ToInt32(lbldiemmay.Text)).ToString();
+                }
             }
         }
 
@@ -1512,7 +1560,7 @@ namespace GameOAnQuan
             t2.Text = "0";
         }
 
-       
+
 
         private void anh1_Click_1(object sender, EventArgs e)
         {
@@ -1533,7 +1581,7 @@ namespace GameOAnQuan
                     nguoichoi.Text = "Lược chơi của người";
                     lbldiemnguoichoi.Text = (choinguocchieu("btn1", s, false) + Convert.ToInt32(lbldiemnguoichoi.Text)).ToString();
                     replaceimage();
-                    wait(1000); 
+                    wait(1000);
                     nguoichoi.Text = "Lược chơi của máy";
                     randommay();
                     replaceimage();
@@ -1658,13 +1706,8 @@ namespace GameOAnQuan
             }
         }
 
-     
-
-       
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
             Application.Exit();
         }
 
